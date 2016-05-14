@@ -1,7 +1,7 @@
-const React = require('../react/addons'),
+const React = require('react/addons'),
       TestUtils = React.addons.TestUtils,
-      expect = require('../expect'),
-      movieReact = require('../app/js/movieReact');
+      expect = require('expect'),
+      movieReact = require('../movieReact');
 
 describe('render the movies', function() {
   it('renders something', function() {
