@@ -1,5 +1,5 @@
-const React = require('react/addons'),
-      TestUtils = React.addons.TestUtils,
+const React = require('react-addons'),
+      TestUtils = require('react-addons-test-utils'),
       expect = require('expect'),
       movieReact = require('../movieReact');
 
