@@ -13,21 +13,36 @@
     "url": "git+https://github.com/lexm/react-crud.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start",
     "start": "node server.js"
   },
   "dependencies": {
     "babel-core": "^6.7.7",
     "babel-loader": "^6.2.4",
     "babel-preset-react": "^6.5.0",
+    "bcrypt": "^0.8.6",
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.13",
     "react": "^15.0.1",
     "react-dom": "^15.0.1"
   },
   "devDependencies": {
+    "babel-loader": "^6.2.4",
     "babel-plugin-transform-runtime": "^6.7.5",
+    "d3": "^3.5.17",
+    "expect": "^1.20.1",
     "gulp-clean": "^0.3.2",
     "gulp-eslint": "^2.0.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-cli": "^1.0.0",
+    "karma-mocha": "^1.0.1",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "react": "^15.0.2",
+    "webpack": "^1.13.0",
     "webpack-stream": "^3.2.0"
   }
 }
